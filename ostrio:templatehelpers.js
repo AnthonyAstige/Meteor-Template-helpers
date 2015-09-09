@@ -50,10 +50,20 @@ Template.registerHelper('Session', function(key, adds) {
 /*
  *
  * @description Debug helper console log
- * and return passed objects as a string
  *
  */
 Template.registerHelper('log', function(key, adds) {
+    console.log('arguments: ', arguments, 'this: ', this);
+	return '';
+});
+
+/*
+ *
+ * @description Debug helper console log
+ * and return passed objects as a string
+ *
+ */
+Template.registerHelper('debug', function(key, adds) {
     console.log('arguments: ', arguments, 'this: ', this);
     return JSON.stringify(key, null, 2) + ' | ' + JSON.stringify(adds, null, 2);
 });
