@@ -9,7 +9,7 @@ Add functionality to:
 Install:
 ========
 ```shell
-meteor add ostrio:templatehelpers
+meteor add anthonyastige:templatehelpers
 ```
 
 #### `Session`
@@ -25,10 +25,15 @@ Get or set session value from views via Session helper
 {{Session 'key' set="new value" action="setDefault"}}
 ```
 
-#### `log` aka debug
-Log arguments into browser's console, and output into template
+#### `log`
+Log arguments into browser's console
 ```html
 {{log 'val' opt='val2' opt2=variable}}
+```
+#### `debug`
+Log arguments into browser's console, and output into template
+```html
+{{debug 'val' opt='val2' opt2=variable}}
 ```
 
 #### Underscore (all functions)

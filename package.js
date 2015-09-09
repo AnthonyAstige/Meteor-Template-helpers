@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'ostrio:templatehelpers',
+  name: 'anthonyastige:templatehelpers',
   version: '0.3.1',
   summary: 'Template helpers for Session, logical operations and debug',
-  git: 'https://github.com/VeliovGroup/Meteor-Template-helpers',
+  git: 'https://github.com/AnthonyAstige/Meteor-Template-helpers',
   documentation: 'README.md'
 });
 
